@@ -29,9 +29,11 @@ sections:
   new_doc_ext: yml
 - type: directory
   path: content/contact
-  label: Contact
-  create: none
+  label: Contactanos
+  create: documents
   match: "*"
+  templates:
+  - post
 - type: document
   path: config.toml
   label: Configuration
